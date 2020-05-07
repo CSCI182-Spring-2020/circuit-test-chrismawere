@@ -3,13 +3,14 @@
 
 #include <iostream>
 #include "Circuit.h"
+#include "SeriesCircuit.h"
+#include "ParallelCircuit.h"
 
 using namespace std;
 
 int main()
 {
-    Circuit c1;
-    cout << "And the dance goes: " << c1.arr1[0] << endl;
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

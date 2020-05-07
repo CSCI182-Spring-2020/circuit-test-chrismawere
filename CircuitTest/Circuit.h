@@ -3,13 +3,14 @@
 
 class Circuit
 {
-
+private:
+   int _resistance;
 
 public:
     int* arr1;
     int* arr2;
-
-    Circuit();
+   
+    Circuit(int resist);
     ~Circuit();
     
     
